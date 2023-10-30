@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33919.361
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CursoEd", "CursoEd\CursoEd.vbproj", "{44577033-5549-46AF-BA57-C62248B07AC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44577033-5549-46AF-BA57-C62248B07AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44577033-5549-46AF-BA57-C62248B07AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44577033-5549-46AF-BA57-C62248B07AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44577033-5549-46AF-BA57-C62248B07AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0CC599B-4C9D-4498-9E7F-9383645E54BA}
+	EndGlobalSection
+EndGlobal
