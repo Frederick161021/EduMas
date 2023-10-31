@@ -28,6 +28,9 @@ Partial Class adminUsuarios
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtUsuario_rol_id = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.btnActualizar = New System.Windows.Forms.Button()
+        Me.btnAgregar = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtUsuario_estado = New System.Windows.Forms.TextBox()
@@ -42,9 +45,6 @@ Partial Class adminUsuarios
         Me.txtUsuario_nombre = New System.Windows.Forms.TextBox()
         Me.lblUsuario = New System.Windows.Forms.Label()
         Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.btnActualizar = New System.Windows.Forms.Button()
-        Me.btnEliminar = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -89,6 +89,7 @@ Partial Class adminUsuarios
         Me.Label3.Size = New System.Drawing.Size(117, 21)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Id Usuario Rol"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'txtUsuario_rol_id
         '
@@ -123,12 +124,53 @@ Partial Class adminUsuarios
         Me.Panel1.Size = New System.Drawing.Size(743, 299)
         Me.Panel1.TabIndex = 5
         '
+        'btnEliminar
+        '
+        Me.btnEliminar.BackgroundImage = Global.CursoEd.My.Resources.Resources.fondo4
+        Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminar.ForeColor = System.Drawing.Color.White
+        Me.btnEliminar.Location = New System.Drawing.Point(450, 204)
+        Me.btnEliminar.Name = "btnEliminar"
+        Me.btnEliminar.Size = New System.Drawing.Size(273, 29)
+        Me.btnEliminar.TabIndex = 10
+        Me.btnEliminar.Text = "Eliminar"
+        Me.btnEliminar.UseVisualStyleBackColor = True
+        '
+        'btnActualizar
+        '
+        Me.btnActualizar.BackgroundImage = Global.CursoEd.My.Resources.Resources.fondo4
+        Me.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnActualizar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizar.ForeColor = System.Drawing.Color.White
+        Me.btnActualizar.Location = New System.Drawing.Point(450, 159)
+        Me.btnActualizar.Name = "btnActualizar"
+        Me.btnActualizar.Size = New System.Drawing.Size(273, 29)
+        Me.btnActualizar.TabIndex = 9
+        Me.btnActualizar.Text = "Actualizar"
+        Me.btnActualizar.UseVisualStyleBackColor = True
+        '
+        'btnAgregar
+        '
+        Me.btnAgregar.BackColor = System.Drawing.Color.Transparent
+        Me.btnAgregar.BackgroundImage = Global.CursoEd.My.Resources.Resources.fondo4
+        Me.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnAgregar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAgregar.ForeColor = System.Drawing.Color.White
+        Me.btnAgregar.Location = New System.Drawing.Point(450, 113)
+        Me.btnAgregar.Name = "btnAgregar"
+        Me.btnAgregar.Size = New System.Drawing.Size(273, 29)
+        Me.btnAgregar.TabIndex = 8
+        Me.btnAgregar.Text = "Agregar"
+        Me.btnAgregar.UseVisualStyleBackColor = False
+        '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(417, 28)
+        Me.Label9.Location = New System.Drawing.Point(428, 28)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(61, 21)
         Me.Label9.TabIndex = 7
@@ -139,7 +181,7 @@ Partial Class adminUsuarios
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(26, 251)
+        Me.Label8.Location = New System.Drawing.Point(100, 256)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(43, 21)
         Me.Label8.TabIndex = 7
@@ -177,7 +219,7 @@ Partial Class adminUsuarios
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(26, 159)
+        Me.Label6.Location = New System.Drawing.Point(13, 156)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(130, 21)
         Me.Label6.TabIndex = 7
@@ -196,7 +238,7 @@ Partial Class adminUsuarios
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(26, 113)
+        Me.Label5.Location = New System.Drawing.Point(46, 110)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(97, 21)
         Me.Label5.TabIndex = 7
@@ -215,7 +257,7 @@ Partial Class adminUsuarios
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(26, 69)
+        Me.Label4.Location = New System.Drawing.Point(70, 69)
         Me.Label4.Name = "Label4"
         Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label4.Size = New System.Drawing.Size(73, 21)
@@ -243,51 +285,25 @@ Partial Class adminUsuarios
         Me.lblUsuario.AutoSize = True
         Me.lblUsuario.BackColor = System.Drawing.Color.Transparent
         Me.lblUsuario.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUsuario.Location = New System.Drawing.Point(138, 20)
+        Me.lblUsuario.Location = New System.Drawing.Point(134, 20)
         Me.lblUsuario.Name = "lblUsuario"
         Me.lblUsuario.Size = New System.Drawing.Size(72, 22)
         Me.lblUsuario.TabIndex = 6
         Me.lblUsuario.Text = "Usuario"
+        Me.lblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'btnBuscar
         '
+        Me.btnBuscar.BackgroundImage = Global.CursoEd.My.Resources.Resources.fondo3
+        Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnBuscar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBuscar.ForeColor = System.Drawing.Color.White
         Me.btnBuscar.Location = New System.Drawing.Point(626, 60)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(139, 29)
         Me.btnBuscar.TabIndex = 7
         Me.btnBuscar.Text = "Buscar"
         Me.btnBuscar.UseVisualStyleBackColor = True
-        '
-        'btnAgregar
-        '
-        Me.btnAgregar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregar.Location = New System.Drawing.Point(450, 113)
-        Me.btnAgregar.Name = "btnAgregar"
-        Me.btnAgregar.Size = New System.Drawing.Size(273, 29)
-        Me.btnAgregar.TabIndex = 8
-        Me.btnAgregar.Text = "Agregar"
-        Me.btnAgregar.UseVisualStyleBackColor = True
-        '
-        'btnActualizar
-        '
-        Me.btnActualizar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnActualizar.Location = New System.Drawing.Point(450, 159)
-        Me.btnActualizar.Name = "btnActualizar"
-        Me.btnActualizar.Size = New System.Drawing.Size(273, 29)
-        Me.btnActualizar.TabIndex = 9
-        Me.btnActualizar.Text = "Actualizar"
-        Me.btnActualizar.UseVisualStyleBackColor = True
-        '
-        'btnEliminar
-        '
-        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminar.Location = New System.Drawing.Point(450, 204)
-        Me.btnEliminar.Name = "btnEliminar"
-        Me.btnEliminar.Size = New System.Drawing.Size(273, 29)
-        Me.btnEliminar.TabIndex = 10
-        Me.btnEliminar.Text = "Eliminar"
-        Me.btnEliminar.UseVisualStyleBackColor = True
         '
         'adminUsuarios
         '

@@ -77,3 +77,5 @@ C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.v
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.exe
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.xml
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.pdb
+C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.adminUsuarios.resources
+C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.Resultado.resources
