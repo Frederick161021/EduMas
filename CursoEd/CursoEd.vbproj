@@ -76,16 +76,40 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminActividad.Designer.vb">
+      <DependentUpon>adminActividad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminActividad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminCurso.Designer.vb">
+      <DependentUpon>adminCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminContenido.Designer.vb">
+      <DependentUpon>adminContenido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminContenido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminPago.Designer.vb">
+      <DependentUpon>adminPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminPrincipal.Designer.vb">
+      <DependentUpon>adminPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="adminUsuarios.Designer.vb">
       <DependentUpon>adminUsuarios.vb</DependentUpon>
     </Compile>
     <Compile Include="adminUsuarios.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bienvenida.Designer.vb">
-      <DependentUpon>Bienvenida.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Bienvenida.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Curso.Designer.vb">
@@ -151,11 +175,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="adminActividad.resx">
+      <DependentUpon>adminActividad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminCurso.resx">
+      <DependentUpon>adminCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminContenido.resx">
+      <DependentUpon>adminContenido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminPago.resx">
+      <DependentUpon>adminPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminPrincipal.resx">
+      <DependentUpon>adminPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminUsuarios.resx">
       <DependentUpon>adminUsuarios.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bienvenida.resx">
-      <DependentUpon>Bienvenida.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Curso.resx">
       <DependentUpon>Curso.vb</DependentUpon>
