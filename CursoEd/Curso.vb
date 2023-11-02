@@ -1,4 +1,6 @@
-﻿Public Class Curso
+﻿Imports ExamenesEducaMas
+
+Public Class Curso
 
     Private Sub cargarContenido()
         Dim cargar As New ClassLibCursoEdu.Contenido
@@ -58,5 +60,34 @@
 
     Private Sub Curso_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lblNombreCurso.Text = ModuleCurso.curso_nombre
+    End Sub
+
+    Private Sub btnExamen_Click(sender As Object, e As EventArgs) Handles btnExamen.Click
+        If ModuleCurso.curso_id = 1 Then
+            Dim esp1 As New Esp1
+            esp1.Show()
+        ElseIf ModuleCurso.curso_id = 2 Then
+            Dim esp2 As New Esp1
+            esp2.Show()
+        ElseIf ModuleCurso.curso_id = 3 Then
+            Dim esp3 As New Esp1
+            esp3.Show()
+        ElseIf ModuleCurso.curso_id = 4 Then
+            Dim mate1 As New Mate1
+            mate1.Show()
+        ElseIf ModuleCurso.curso_id = 5 Then
+            Dim mate2 As New Mate2
+            mate2.Show()
+        ElseIf ModuleCurso.curso_id = 6 Then
+            Dim mate3 As New Mate3
+            mate3.Show()
+        ElseIf ModuleCurso.curso_id = 7 Then
+            Dim hist1 As New Hist1
+            hist1.Show()
+        ElseIf ModuleCurso.curso_id = 8 Then
+            Dim hist2 As New Hist1
+            hist2.Show()
+        End If
+        Me.Hide
     End Sub
 End Class

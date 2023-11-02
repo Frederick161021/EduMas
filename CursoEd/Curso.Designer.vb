@@ -32,12 +32,14 @@ Partial Class Curso
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblEstado = New System.Windows.Forms.Label()
         Me.btnRegresar = New System.Windows.Forms.Button()
+        Me.btnExamen = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackgroundImage = Global.CursoEd.My.Resources.Resources.fondo1
+        Me.Panel1.Controls.Add(Me.btnExamen)
         Me.Panel1.Controls.Add(Me.btnModuloIV)
         Me.Panel1.Controls.Add(Me.btnModuloII)
         Me.Panel1.Controls.Add(Me.btnModuloIII)
@@ -55,7 +57,7 @@ Partial Class Curso
         Me.btnModuloIV.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnModuloIV.Font = New System.Drawing.Font("Microsoft YaHei", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModuloIV.ForeColor = System.Drawing.Color.White
-        Me.btnModuloIV.Location = New System.Drawing.Point(536, 265)
+        Me.btnModuloIV.Location = New System.Drawing.Point(536, 242)
         Me.btnModuloIV.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModuloIV.Name = "btnModuloIV"
         Me.btnModuloIV.Size = New System.Drawing.Size(407, 129)
@@ -69,7 +71,7 @@ Partial Class Curso
         Me.btnModuloII.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnModuloII.Font = New System.Drawing.Font("Microsoft YaHei", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModuloII.ForeColor = System.Drawing.Color.White
-        Me.btnModuloII.Location = New System.Drawing.Point(536, 100)
+        Me.btnModuloII.Location = New System.Drawing.Point(536, 76)
         Me.btnModuloII.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModuloII.Name = "btnModuloII"
         Me.btnModuloII.Size = New System.Drawing.Size(407, 129)
@@ -83,7 +85,7 @@ Partial Class Curso
         Me.btnModuloIII.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnModuloIII.Font = New System.Drawing.Font("Microsoft YaHei", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModuloIII.ForeColor = System.Drawing.Color.White
-        Me.btnModuloIII.Location = New System.Drawing.Point(63, 265)
+        Me.btnModuloIII.Location = New System.Drawing.Point(63, 242)
         Me.btnModuloIII.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModuloIII.Name = "btnModuloIII"
         Me.btnModuloIII.Size = New System.Drawing.Size(407, 129)
@@ -97,7 +99,7 @@ Partial Class Curso
         Me.btnModuloI.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnModuloI.Font = New System.Drawing.Font("Microsoft YaHei", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModuloI.ForeColor = System.Drawing.Color.White
-        Me.btnModuloI.Location = New System.Drawing.Point(63, 100)
+        Me.btnModuloI.Location = New System.Drawing.Point(63, 76)
         Me.btnModuloI.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModuloI.Name = "btnModuloI"
         Me.btnModuloI.Size = New System.Drawing.Size(407, 129)
@@ -169,6 +171,20 @@ Partial Class Curso
         Me.btnRegresar.Text = "REGRESAR"
         Me.btnRegresar.UseVisualStyleBackColor = True
         '
+        'btnExamen
+        '
+        Me.btnExamen.BackgroundImage = Global.CursoEd.My.Resources.Resources.fondo4
+        Me.btnExamen.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnExamen.Font = New System.Drawing.Font("Microsoft YaHei", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExamen.ForeColor = System.Drawing.Color.White
+        Me.btnExamen.Location = New System.Drawing.Point(370, 390)
+        Me.btnExamen.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnExamen.Name = "btnExamen"
+        Me.btnExamen.Size = New System.Drawing.Size(308, 59)
+        Me.btnExamen.TabIndex = 5
+        Me.btnExamen.Text = "Examen"
+        Me.btnExamen.UseVisualStyleBackColor = True
+        '
         'Curso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -200,4 +216,5 @@ Partial Class Curso
     Friend WithEvents Label2 As Label
     Friend WithEvents lblEstado As Label
     Friend WithEvents btnRegresar As Button
+    Friend WithEvents btnExamen As Button
 End Class

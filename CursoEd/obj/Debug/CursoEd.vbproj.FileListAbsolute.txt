@@ -44,7 +44,6 @@ C:\Users\MH\Desktop\Educa+\EducaMas\CursoEd\obj\Debug\CursoEd.Curso.resources
 C:\Users\MH\Desktop\Educa+\EducaMas\CursoEd\obj\Debug\CursoEd.Modulo.resources
 C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ClassLibCursoEdu.pdb
 C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ClassLibCursoEdu.xml
-C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.Bienvenida.resources
 C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.Curso.resources
 C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.Cursos.resources
 C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.Modulo.resources
@@ -54,7 +53,6 @@ C:\Users\MH\Desktop\Educa+\EducaMas\CursoEd\bin\Debug\ClassLibCursoEdu.pdb
 C:\Users\MH\Desktop\Educa+\EducaMas\CursoEd\bin\Debug\ClassLibCursoEdu.xml
 C:\Users\MH\Desktop\Educa+\EducaMas\CursoEd\obj\Debug\CursoEd.vbproj.CopyComplete
 C:\Users\MH\Desktop\Educa+\EducaMas\CursoEd\bin\Debug\ClassLibCursoEdu.dll
-C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ClassLibCursoEdu.dll
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\bin\Debug\CursoEd.exe.config
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\bin\Debug\CursoEd.exe
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\bin\Debug\CursoEd.pdb
@@ -79,3 +77,15 @@ C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.x
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.pdb
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.adminUsuarios.resources
 C:\Users\MH\Documents\Proyecto_progra\VisualS\EduMas\CursoEd\obj\Debug\CursoEd.Resultado.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.adminActividad.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.adminCurso.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.adminContenido.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.adminPago.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.adminPrincipal.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.adminUsuarios.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\obj\Debug\CursoEd.Resultado.resources
+C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ClassLibCursoEdu.dll
+C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ExamenesEducaMas.exe
+C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ExamenesEducaMas.pdb
+C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ExamenesEducaMas.xml
+C:\Users\togae\source\repos\CursoEd\CursoEd\bin\Debug\ExamenesEducaMas.exe.config
