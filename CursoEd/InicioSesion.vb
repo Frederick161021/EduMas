@@ -32,10 +32,14 @@ Public Class InicioSesion
                     ModuleUsuario.usuario_num_tarjeta = .UsuarioNumTarjeta
                     ModuleUsuario.usuario_cvv = .UsuarioCVV
                     ModuleUsuario.usuario_estado = .UsuarioEstado
-                    Cursos.Show()
+                    If .UsuarioRolId = 2 Then
+                        Cursos.Show()
+                    ElseIf .UsuarioRolId = 1 Then
+                        adminPrincipal.Show()
+                    End If
                     Me.Hide()
                 Else
-                    MessageBox.Show("Usuario o contraseña equivocados.")
+                        MessageBox.Show("Usuario o contraseña equivocados.")
                     Limpiar()
                 End If
             End If
